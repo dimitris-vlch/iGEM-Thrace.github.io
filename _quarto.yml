@@ -16,6 +16,7 @@ website:
         
 format:
   html:
+    anchor-sections: false
     
     # remove white space from the sides
     grid:
