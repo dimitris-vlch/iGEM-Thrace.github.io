@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-74281007a3b6d55b2158b2cb00aff78e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -161,30 +161,32 @@ ul.task-list li input[type="checkbox"] {
 
     <!-- Your webpage content -->
 
-    <footer style="width: 100%; position: relative; left: 0; right: 0; text-align: center; background-color: #377ae8; color: #ffffff; padding: 10px 0; font-size: 2.0rem;">
-    <p>© 2025 iGEM Thrace | All Rights Reserved.</p>
-    <p>
-        <!-- LinkedIn Icon -->
-        <a href="https://linkedin.com" target="_blank" style="color: white; font-size: 2.5rem; padding: 0 10px; text-decoration: none;">
-            <i class="fab fa-linkedin"></i>
-        </a>
+    <footer style="width: 100%; position: relative; left: 0; right: 0; text-align: center; background-color: #377ae8; color: #ffffff; padding: 10px 0; font-size: 1rem;">
         
-        <!-- GitHub Icon -->
-        <a href="https://github.com/mywebsite" target="_blank" style="color: white; font-size: 2.5rem; padding: 0 10px; text-decoration: none;">
-            <i class="fab fa-github"></i>
-        </a>
+        <p style="line-height: 1.5;"> <!-- Increase line-height for logos -->
+            <!-- LinkedIn Icon -->
+            <a href="https://linkedin.com" target="_blank" style="color: white; font-size: 1.8rem; padding: 0 10px; text-decoration: none;">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            
+            <!-- GitHub Icon -->
+            <a href="https://github.com/mywebsite" target="_blank" style="color: white; font-size: 1.8rem; padding: 0 10px; text-decoration: none;">
+                <i class="fab fa-github"></i>
+            </a>
 
-        <!-- Facebook Icon -->
-        <a href="https://facebook.com/mywebsite" target="_blank" style="color: white; font-size: 2.5rem; padding: 0 10px; text-decoration: none;">
-            <i class="fab fa-facebook"></i>
-        </a>
+            <!-- Facebook Icon -->
+            <a href="https://facebook.com/mywebsite" target="_blank" style="color: white; font-size: 1.8rem; padding: 0 10px; text-decoration: none;">
+                <i class="fab fa-facebook"></i>
+            </a>
 
-        <!-- Instagram Icon -->
-        <a href="https://instagram.com/mywebsite" target="_blank" style="color: white; font-size: 2.5rem; padding: 0 10px; text-decoration: none;">
-            <i class="fab fa-instagram"></i>
-        </a>
-    </p>
-</footer>
+            <!-- Instagram Icon -->
+            <a href="https://instagram.com/mywebsite" target="_blank" style="color: white; font-size: 1.8rem; padding: 0 10px; text-decoration: none;">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </p>
+        <p style="line-height: 1.2;">© 2025 iGEM Thrace | All Rights Reserved.</p>
+        
+    </footer>
 
 
 
@@ -271,8 +273,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -383,7 +383,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
