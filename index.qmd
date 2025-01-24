@@ -1,47 +1,48 @@
 ---
-#title: "Welcome to the official Website of iGEM Thrace 2025"
+#title: "iGEM2025"
+#qbout: jolla
+#image: https://blogimage.vantagecircle.com/content/images/2020/08/teamwork-and-team-building.png
 ---
 
-::: {style="position: relative; text-align: center; width: 100%;"}
-<!-- Image --> ![](https://images.squarespace-cdn.com/content/v1/5c0571c05cfd7950e5a84c99/1700490319484-OY9JWXIWAS5KDJUVS8ZW/53321032184_8a62c974fa_k.jpg?format=1000w){fig-align="center" width="1800"}
+<h1>iGEM Thrace 2025</h1>
 
-<!-- Text Overlay -->
+<!-- Video Element -->
 
-::: {style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold; background-color: #377ae8; padding: 10px 20px; border-radius: 5px; line-height: 1;"}
-         
-iGEM Thrace 2025
+<video autoplay muted loop>
 
-:::
-:::
+<source src="dna.mp4" type="video/mp4">
 
-::: grid
-<!-- First Column -->
+</video>
 
-::: g-col-6
-![](https://evrospost.gr/wp-content/uploads/2023/04/11114371-53c5-d632-8565-d9b781d56dc5.jpg){fig-align="center" width="900"}
+::: image-container
+<img src="bledaki.webp"/>
 :::
 
-<!-- Second Column -->
-
-::: g-col-6
-::: {style="text-align: justify; font-size: 1.6rem; margin: 20px 0"}
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been
-:::
-:::
+::: image-container2
+<img src="dble.jpg"/>
 :::
 
-::: grid
-<!-- Second Column -->
-
-::: g-col-6
-::: {style="text-align: justify; font-size: 1.6rem; margin: 20px 0"}
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been
-:::
+:::::: image-container3
+::: gradient-overlay1
 :::
 
-<!-- First Column -->
+::: gradient-overlay2
+:::
 
-::: g-col-6
-![](https://evrospost.gr/wp-content/uploads/2023/04/11114371-53c5-d632-8565-d9b781d56dc5.jpg){fig-align="center" width="900"}
+::: gradient-overlay3
 :::
+
+<img src="bledaki.webp"/>
+::::::
+
+::: text
+Ένας ωραίος Τίτλος
 :::
+
+::: textsmall
+Κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενο κείμενo.
+:::
+
+![](Untitled-4.png){.logo1}
+
+
