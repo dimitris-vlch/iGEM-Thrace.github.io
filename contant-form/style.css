@@ -8,19 +8,47 @@ box-sizing: border-box;
 body{ 
 font-family: 'Outfit';
  background: linear-gradient(135deg, #1a0033, #004080, #00b3b3, #39ff14);
-height: 100vh; /* Full height of the viewport */
+min-height: 100vh; /* Full height of the viewport */
+background-size: cover; /* Ensure the background covers the entire body */
+background-attachment: fixed; /* Optional: Fix the background when scrolling */
 margin: 0; /* Removes any default margin */
 }
 
 .contact-container {
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 20px;
-    /* Σπασμένο, η ιδέα είναι τέλος πάντων τα κουτάκια να είναι αριστερά και η εικόνα να είναι δεξία. */
+    max-width: 1200px; /* Limit the maximum width of the container */
+    margin: 0 auto; /* Center the container */          
 }    
 
+.contact-left {
+    flex: 1; /* Allow the form to grow and shrink */
+    min-width: 300px; /* Minimum width for the form */
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-left-title {
+    background-image: linear-gradient(135deg, #efffec, #00b3b3, #4fa7ff, #8400ff);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 20px; /* Add space between title and line */
+}
+
+.contact-left-title hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin-top: 10px; /* Add space between title and line */
+}
 
 .contact-inputs { /*Ο σπασμένος κώδικας αντικαταστάθηκε από το chat gpt */
     width: 100%; /* Ensure input fields span their container's width */
@@ -30,13 +58,22 @@ margin: 0; /* Removes any default margin */
     border-radius: 10px; /* Make the inputs rounded */
     font-size: 16px; /* Consistent font size */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    
 }
 
 textarea.contact-inputs {
     resize: vertical; /* Allow textarea to be resizable vertically only */
     height: 100px; /* Initial height for the textarea */
+    
 }
 
+.contact-inputs:focus{ /*ινσαλά σπουδαίο border */
+    border: 2px solid #191843 ;
+    }
+
+.contact-inputs::placeholder{
+    color: #a9a9a9 ;
+    }
 
 .contact-left-title {
 background-image: linear-gradient(135deg, #efffec, #00b3b3, #4fa7ff, #8400ff);
@@ -61,15 +98,8 @@ color: transparent;
     outline: none; /* κανονικά το placeholder έχει outline, που είναι χάλια, οπότε το έβγαλα */
 }
 
-.contact-inputs:focus{
-border: 2px solid #191843 ;
-}
 
-.contact-inputs::placeholder{
-color: #a9a9a9 ;
-}
-
-.contact-left button{ /* Σπασμένο */
+.contact-left button{ /* εφτιαξε λολ */
 display: flex;
 align-items: center;
 padding: 15px 30px;
@@ -78,7 +108,20 @@ color: #fff;
 gap: 10px;
 border: none;
 border-radius: 50px;
-background: linear-gradient(270deg, #efffec, #00b3b3, #4fa7ff, #8400ff )
+background: linear-gradient(270deg, #efffec, #00b3b3, #4fa7ff, #8400ff );
+cursor: pointer;
 } 
-.contact
+
+.contact-right {
+    flex: 1; /* Allow the image to grow and shrink */
+    min-width: 300px; /* Minimum width for the image */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-right img {
+    max-width: 80%;
+    height: auto;
+}
 
