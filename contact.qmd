@@ -2,8 +2,9 @@
 title: "Contact"
 ---
 
-Contact
+Eπικοινωνία 
 
-Feel free to reach out to us for collaborations or questions!\
+Για να επικοινωνήσετε μαζί μας, παρακαλούμε συμπληρώστε τη φόρμα επικοινωνίας.
+
 📧 **Email**: [team\@example.com](mailto:team@example.com)\
 🌐 **Website**: [Our Project Page](https://example.com)
