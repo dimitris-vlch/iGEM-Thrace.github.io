@@ -1,0 +1,84 @@
+*{
+/*Προσοχή με τα λινκς <link rel="stylesheet" href="./style.css">*/
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{ 
+font-family: 'Outfit';
+ background: linear-gradient(135deg, #1a0033, #004080, #00b3b3, #39ff14);
+height: 100vh; /* Full height of the viewport */
+margin: 0; /* Removes any default margin */
+}
+
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    /* Σπασμένο, η ιδέα είναι τέλος πάντων τα κουτάκια να είναι αριστερά και η εικόνα να είναι δεξία. */
+}    
+
+
+.contact-inputs { /*Ο σπασμένος κώδικας αντικαταστάθηκε από το chat gpt */
+    width: 100%; /* Ensure input fields span their container's width */
+    margin-bottom: 15px; /* Add space between inputs */
+    padding: 10px; /* Add padding inside input boxes */
+    border: 1px solid #ccc; /* Add a light border for clarity */
+    border-radius: 10px; /* Make the inputs rounded */
+    font-size: 16px; /* Consistent font size */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}
+
+textarea.contact-inputs {
+    resize: vertical; /* Allow textarea to be resizable vertically only */
+    height: 100px; /* Initial height for the textarea */
+}
+
+
+.contact-left-title {
+background-image: linear-gradient(135deg, #efffec, #00b3b3, #4fa7ff, #8400ff);
+background-clip: text;
+color: transparent;
+ /* Ψιλομπαγκαρισμενο, το dark reader extension το χαλαει */
+}
+
+.contact-left-title hr{
+    border: auto;
+    width: 200px;
+    height: 1px;
+    }
+
+.contact-inputs{
+    width: 350px; 
+    height: 40px; 
+    border: 1px solid #ccc; 
+    border-radius: 20px; /* αυτό τα κάνει στρόγγυλα */
+    padding: 8 30px; /* κενό γύρω από το κείμενο μέσα στο κουτί */
+    font-size: 16px; 
+    outline: none; /* κανονικά το placeholder έχει outline, που είναι χάλια, οπότε το έβγαλα */
+}
+
+.contact-inputs:focus{
+border: 2px solid #191843 ;
+}
+
+.contact-inputs::placeholder{
+color: #a9a9a9 ;
+}
+
+.contact-left button{ /* Σπασμένο */
+display: flex;
+align-items: center;
+padding: 15px 30px;
+font-size: 16px;
+color: #fff;
+gap: 10px;
+border: none;
+border-radius: 50px;
+background: linear-gradient(270deg, #efffec, #00b3b3, #4fa7ff, #8400ff )
+} 
+.contact
+
